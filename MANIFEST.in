@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include hrdemo *.css
+recursive-include hrdemo *.csv
+recursive-include hrdemo *.html
+recursive-include hrdemo *.ico
+recursive-include hrdemo *.js
+recursive-include hrdemo *.json
+recursive-include hrdemo *.md
+recursive-include hrdemo *.png
+recursive-include hrdemo *.py
+recursive-include hrdemo *.svg
+recursive-include hrdemo *.txt
+recursive-exclude hrdemo *.pyc
